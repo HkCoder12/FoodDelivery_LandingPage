@@ -1,0 +1,56 @@
+/* Navigation section  */
+#navbar{
+    flex-direction: column;
+
+}
+#navbar ul li a{
+    display: block;
+    width: 88px;
+    padding: 4px;
+    font-size: 16px;
+    margin: 1px;
+}
+
+/* Home Section  */
+#home p{
+    font-size: medium;
+}
+#home::before{
+    height: 585px;
+}
+/* Serice Section/ */
+#services{
+    flex-direction: column;
+    margin: auto;
+}
+
+/* Client Section  */
+#clients{
+    /* To hide the contents which is overflown  */
+    /* overflow: hidden; */
+
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 100px;
+    height: 94px;
+    margin: 20px;
+}
+
+/* Contact Section  */
+#contact-box{
+    height: 580px;
+    justify-content: flex-start;
+    /* width: 80%; */
+    padding: 0;
+}
+
+/* Uility Section  */
+.h-primary{
+    margin-top: 20px;
+    font-size: large  ;
+}
+
+hr{
+    list-style: none;
+}
